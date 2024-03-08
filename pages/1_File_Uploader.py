@@ -43,5 +43,5 @@ if file_image:
     pred_index = ut.get_prediction(payload)
 
     # predicted labels
-    st.subheader(ut.get_label(pred_index, st.session_state.lang))
+    st.subheader("{}: ".format(ut.translate("sent9", st.session_state.lang)) + ut.get_label(pred_index, st.session_state.lang))
 
