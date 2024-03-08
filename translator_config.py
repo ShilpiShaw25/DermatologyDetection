@@ -30,6 +30,10 @@ SENTENCE = {
     "sent8": {
         "en": "File Input 📁",
         "sp": "Entrada de archivo 📁"
+    },
+    "sent9": {
+        "en": "Predicted Label",
+        "sp": "Etiqueta previst"
     }
 
 }
