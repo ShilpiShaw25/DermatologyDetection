@@ -1,4 +1,7 @@
 import streamlit as st
+from PIL import Image
+import io
+import base64
 
 import utils as ut
 
@@ -30,7 +33,7 @@ if file_image:
     #converting the image to bytes
     img = Image.open(file_image)
     buf = io.BytesIO()
-    img.save(buf,format = 'JPEG')
+    img.save(buf,format = 'png')
     byte_im = buf.getvalue()
 
     #converting bytes to b64encoding
