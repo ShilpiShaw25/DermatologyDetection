@@ -1,7 +1,7 @@
 import base64
 import requests
 
-from translator import translator_config
+import translator_config
 
 TRANSLATE_CATEGORIES = {
     "Acne and Rosacea Photos": "Fotos de Acné y Rosácea",
